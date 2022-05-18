@@ -1,0 +1,29 @@
+.texto {
+    font-size: 20px;
+}
+
+.informacao {
+    font-size: 20px;
+}
+
+.campo-digitacao {
+    font-size: 20px;
+    height: 150px;
+    border: 3px solid black;
+}
+
+.campo-desativado {
+    background-color: lightgray;
+}
+
+.icone {
+    vertical-align: middle;
+}
+
+.texto-errado{
+    border: 3px solid red;
+}
+
+.texto-certo{
+    border: 3px solid green;
+}

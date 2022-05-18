@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/libs/materialize.min.css" />
+    <link rel="stylesheet" href="css/libs/google-fonts.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Alura Typer</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="center">Alura Typer</h1>
+      <p class="center texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam temporibus vel, repellat, odit commodi aliquid adipisci aut dignissimos eos doloribus rem aspernatur quod ab iste quaerat sequi rerum tempora sint.</p>
+      <ul class="center">
+        <li class="informacao">
+          <i class="small material-icons icone">description</i>
+          <span id="quantidade-palavras">0</span> Palavras
+        </li>
+
+        <li class="informacao">
+          <i class="small material-icons icone">query_builder</i>
+          <span id="tempo-digitacao">10</span> Segundos
+        </li>
+      </ul>
+
+      <textarea
+        class="campo-digitacao"
+        id="campo-digitacao"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <div>
+        <a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red">
+            <i class="material-icons">restore</i>
+        </a>
+      </div>
+
+      <ul class="center">
+        <li class="informacao quantidade-palavras-digitadas">
+          <span id="quantidade-palavras-digitadas">0</span> Palavras Digitadas
+        </li>
+        <li class="informacao quantidade-caracteres-digitadas">
+          <span id="quantidade-caracteres-digitadas">0</span> Caracteres
+          Digitados
+        </li>
+      </ul>
+
+      <section class="placar">
+        <h3 class="center">Placar</h3>
+        <table class="centered bordered">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>No. de Palavras</th>
+                    <th>Remover</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Moisés</td>
+                    <td>10</td>
+                    <td>
+                        <a href="#" class="botao-remover">
+                            <i class="small material-icons">delete</i>
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+      </section>
+
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/placar.js"></script>
+  </body>
+</html>
